@@ -1,0 +1,17 @@
+.order-popup-k-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.order-popup-k-field {
+    width: 80%;
+
+}
+
+li:hover {
+    cursor: pointer;
+
+}

@@ -1,0 +1,66 @@
+.register-main {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 10px 5px gray;
+
+}
+
+.register-b {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+}
+
+.register-form {
+    margin: 0 auto 0 auto;
+    padding: 10% 5% 10% 5%;
+
+}
+
+#register-form > button {
+    float: right;
+}
+
+#register-form > h3 {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+#register-div > p {
+    color: black;
+    margin-bottom: 0px !important;
+
+}
+
+#register-div > p:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.register-k-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 4%;
+
+}
+
+#register-link {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.toast-custom {
+    opacity: 90% !important;
+
+  }

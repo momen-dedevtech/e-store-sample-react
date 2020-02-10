@@ -1,0 +1,94 @@
+.signin-k-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+}
+
+.signin-b {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.signin-main {
+    background-color: whitesmoke;
+    box-shadow: 1px -1px 10px -1px grey;
+    padding-top: 3%;
+    z-index: 4;
+
+}
+
+#signin-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.signin-form {
+    margin: 0 auto 0 auto;
+    padding: 5% 0 5% 0;
+
+}
+
+#signin-div > p {
+    color: black;
+    margin-bottom: 0px !important;
+
+}
+
+#signin-div > p:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.signin-k-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.signin-newUser {
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    box-shadow: 1px 1px 10px -1px grey;
+    z-index: 2;
+
+}
+
+.signin-newUser > p {
+    color: white;
+    margin-bottom: 0px !important;
+
+}
+
+.signin-newUser > p:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#signin-link {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+#signInEmail, #signInPass {
+    border-color: black !important;
+    border-width: 1px !important;
+
+}

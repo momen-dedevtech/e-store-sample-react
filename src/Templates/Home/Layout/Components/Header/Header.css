@@ -1,0 +1,34 @@
+.k-logo {
+    float: right;
+
+}
+
+.k-block {
+    display: flex;
+
+}
+
+@media screen and (max-width : 576px){
+    .k-block {
+        display: block !important;
+
+    }
+    .k-logo {
+        float: none;
+        margin-left: 150px;
+
+    }
+    #cart {
+        display: inline-block;
+
+    }
+
+}
+
+@media screen and (min-width: 576px){
+    .k-logo {
+        display: flex;
+        justify-content: center;
+    }
+
+}

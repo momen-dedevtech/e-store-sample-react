@@ -1,0 +1,33 @@
+.profile-k-container {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.profile-k-form {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.profile-k-end {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+h2 {
+    color: grey;
+    font-style: oblique;
+    padding-bottom: 1%;
+    padding-left: 2%;
+
+}
+
+.profile-k-link {
+    display: flex;
+    justify-content: flex-end;
+
+}

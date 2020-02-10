@@ -1,0 +1,22 @@
+#nav-nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+#nav-nav > p {
+    margin-bottom: 0px !important;
+
+}
+
+#nav-nav > #nav-p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+#nav-link {
+    text-decoration: inherit;
+    color: inherit;
+
+}

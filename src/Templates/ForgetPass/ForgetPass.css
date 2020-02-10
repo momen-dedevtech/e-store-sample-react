@@ -1,0 +1,87 @@
+.forget-k-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+
+}
+
+.forget-b {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.forget-main {
+    background-color: whitesmoke;
+    box-shadow: 1px -1px 10px -1px grey;
+    z-index: 4;
+    padding-top: 2%;
+    padding-bottom: 2.5%;
+
+}
+
+
+.forget-form {
+    margin: 0 auto 0 auto;
+    padding: 5% 0 5% 0;
+
+}
+
+#forget-form > h3 {
+    text-align: center;
+    
+}
+
+.forget-k-link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#forget-btn {
+    width: 100%;
+
+}
+
+.forget-newUser {
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    box-shadow: 1px 1px 10px -1px grey;
+    z-index: 2;
+
+}
+
+.forget-newUser > p {
+    color: white;
+    margin-bottom: 0px !important;
+
+}
+
+.forget-newUser > p:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+#forget-link {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+#enterEmail {
+    border-color: black !important;
+    border-width: 1px !important;
+
+}

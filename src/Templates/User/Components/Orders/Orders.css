@@ -1,0 +1,36 @@
+.orders-k-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+
+
+}
+
+#orders-row:hover {
+    cursor: pointer;
+
+}
+
+.orders-k-table {
+    margin-top: 5%;;
+
+}
+
+th, td {
+    text-align: center !important;
+
+}
+
+h2 {
+    color: grey;
+    font-style: oblique;
+    padding-bottom: 1%;
+    padding-left: 2%;
+
+}
+
+.k-btn-order {
+    margin-top: 0px !important;
+    width: 100% !important;
+
+}

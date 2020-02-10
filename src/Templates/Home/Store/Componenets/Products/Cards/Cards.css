@@ -1,0 +1,79 @@
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    margin: 5px auto 5px auto;
+
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.2);
+  
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  
+  }
+  
+  .flip-card-back {
+    background-color: black;
+    color: white;
+    transition: .5s ease;
+    opacity: 0;
+    text-align: center;
+  
+  }
+
+  .flip-card:hover #productImg {
+    opacity: 0.3;
+  }
+  
+  .flip-card:hover .flip-card-back {
+    opacity: .85;
+  }
+  
+  #productImg {
+    width: 250px;
+    height: 250px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+  }
+
+  .productDetails {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .k-btn-container {
+    width: 45%;
+
+  }
+
+  .k-btn-size {
+    width: 100%;
+
+  }
+
+  .toast-custom {
+    opacity: 90% !important;
+
+  }
